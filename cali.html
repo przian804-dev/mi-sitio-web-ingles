@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="adorno.css">
+</head>
+<body>
+  <h1>Formulario</h1>
+  <form action="resultado.php" method="POST">
+    Nombre:<br>
+    <input type="text" name="nombre" required>
+    <br><br>
+    Apellidos:<br>
+    <input type="text" name="apellidos" required>
+    <br>
+    Edad: <br>
+    <input type="number" name="edad" required>
+    <br>
+    Califica la pagina<br>
+    <select name="calificacion" required>
+      <option value="">Elige</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
