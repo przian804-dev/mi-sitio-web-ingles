@@ -1,0 +1,11 @@
+table{
+    background-color: yellow;
+    border-radius: 3px;
+    border-color: brown;
+    text-align: center;
+    align-items: center;
+}
+td{
+    background-color: white;
+    color:black;
+}
